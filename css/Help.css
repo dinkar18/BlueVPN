@@ -1,0 +1,39 @@
+.srch{
+    background:linear-gradient(to right, #4687ff 0%, #00ffcc 100%);;
+    color: white;
+    margin: 0px 0px 50px 0px;
+    padding: 50px 20px;
+    text-align: center;
+}
+.srch input[type="text"]{
+    width: 60%;
+    font-size: 18px;
+    padding: 10px;
+    margin: 30px auto;
+    border: 1px solid black;
+}
+.btn7{
+    padding: 9px 15px;
+    border-radius: 1px; 
+    background: black;
+    border: 1px solid black;
+}
+
+
+
+
+
+.hlp{
+    width: 60%;
+    margin: 60px auto;
+    text-align: left;
+    padding: 20px;
+}
+.hlp1{
+    margin:60px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.hlp1 p{
+    font-size: 16px;
+}

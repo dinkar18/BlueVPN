@@ -1,0 +1,51 @@
+.server1{
+    background-image: url('../img/world.jpg');
+    background-size: 100%;
+    min-height: 500px;
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.list1{
+    margin: 40px 0px;
+    text-align: center;
+}
+
+.list2{
+    margin: 60px auto;
+}
+.list2 h2{
+    text-align: left;
+    border-bottom: 1px solid lightgrey;
+}
+.list3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+.count{
+
+}
+.count img{
+    width: 10%;
+    margin-right: 20px;
+    margin-top: 20px;
+}

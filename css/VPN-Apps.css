@@ -1,0 +1,36 @@
+.up1 {
+    background-color: white;
+    padding: 0px;
+    border-bottom: 1.5px solid darkgrey;
+}
+
+.imgg {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.imgg img:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.sml-grey {
+    margin-top: 0px;
+}
+
+.main h1 {
+    margin-top: 50px;
+}
+
+.main h1,
+p {
+    text-align: center;
+}
+
+.main-2 {
+    margin-top: 30px;
+}
+
+.main-pic img {
+    width: 80%;
+}

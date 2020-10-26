@@ -1,0 +1,29 @@
+.server1{
+    text-align: center;
+    background-image: url('../img/students-discussion.webp');
+    background-size: 100%;
+    min-height: 500px;
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+}
+
+
+
+
+.abus{
+    width: 60%;
+    margin: 40px auto;
+    text-align: center;
+}
+.abus h2{
+    line-height: 1.3em;
+    font-size: 25px;
+    margin: 70px auto;
+}
+.abus img{
+    width: 70%;
+    margin: 70px auto;
+}

@@ -1,0 +1,181 @@
+/* Background */
+
+.ftr {
+    background-color: black;
+    color: white;
+    min-height: 200px;
+    text-align: center;
+    padding-top: 100px;
+}
+.ftr a{
+    color: white;
+    text-decoration: none;
+}
+.ftr a:hover{
+    color: #4687ff;
+}
+
+
+/* download on stores */
+
+.downloadApps {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.down img {
+    width: 40%;
+    margin: 40px 10px 10px 10px;
+}
+
+.left img {
+    float: right;
+}
+
+.right img {
+    float: left;
+}
+
+.down img:hover {
+    opacity: 0.5;
+}
+
+
+/* All options */
+
+.options {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 3fr;
+    margin: 50px 0px;
+}
+
+.options1 {
+    text-align: left;
+    font-size: 13px;
+    margin-left: 30px;
+}
+
+.options1 h5 {
+    font-size: 12px;
+    color: #4687ff;
+    border-bottom: #4687ff 1px solid;
+}
+
+.options1 ul {
+    margin-left: 0px;
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.options1 a {
+    color: white;
+}
+
+.options1 a:hover {
+    text-decoration: none;
+    color: #4687ff;
+    cursor: pointer;
+    text-align: left;
+}
+
+.options1 SELECT {
+    BORDER: none;
+    background-color: lightgrey;
+    color: black;
+    font-size: 17px;
+    padding: 10px 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.social {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.social a {}
+
+.social img {
+    width: 70%;
+}
+
+.social img:hover {
+    opacity: 0.5;
+}
+
+
+/* end */
+
+.end {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 12px;
+    color: #4687ff;
+    margin-bottom: 70px;
+}
+
+.endl {
+    text-align: left;
+}
+
+.endl p {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.endr {
+    position: relative;
+}
+
+.endr img {
+    position: absolute;
+    width: 30%;
+    bottom: 3px;
+    right: 2px;
+}
+
+.query1 input[type="text"],input[type="email"],textarea{
+    width: 94%;
+    border: 1px solid #4687ff;
+    
+    margin-bottom: 15px;
+    font-size: 16px;
+    padding: 8px;
+}
+.btn11{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 0px;
+}
+
+
+
+
+/* small display */
+
+@media(max-width:900px) {
+    .downloadApps {
+        display: block;
+    }
+    .left img {
+        float: none;
+    }
+    .right img {
+        float: none;
+    }
+    .options {
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+    }
+    .social {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .end {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}

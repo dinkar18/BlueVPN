@@ -1,0 +1,21 @@
+.cnt{
+    background: #f6f6f6;
+    margin: 0px;
+    text-align: center;
+    padding: 60px 0px;
+}
+.cnt1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.cnt2{
+    padding: 10px;
+    width: 80%;
+    border: 1px grey solid;
+    margin: 20px;
+    background: white;
+    box-shadow: 0 8px 6px -6px black;
+}
+.bluetxt{
+    font-size: 15px;
+}

@@ -1,0 +1,29 @@
+.main-2 {
+    margin-top: 0px;
+}
+
+.main-pic img {
+    width: 99%;
+}
+
+.downcen {
+    background-color: darkgray;
+    color: black;
+}
+
+.downcen1 H1 {
+    font-size: 42px;
+}
+
+.downcen1 p {
+    text-align: left;
+}
+
+.main-2 img {
+    width: 50%;
+    margin-top: 80px;
+}
+
+.main-2 img:hover {
+    opacity: 0.5;
+}

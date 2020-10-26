@@ -1,0 +1,20 @@
+.privacy{
+    width: 70%;
+}
+
+.privacy {
+    margin: 0px auto;
+    
+    padding-bottom: 80px;
+    border-bottom: 2px solid  #4687ff;
+    text-align: center;
+   
+    margin-top: 80px;
+}
+.privacy1 {
+    font-size: 16px;
+    font-weight: 100;
+}
+.privacy1 h6{
+    font-size: 19px;
+}

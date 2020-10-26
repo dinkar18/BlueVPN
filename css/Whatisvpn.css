@@ -1,0 +1,50 @@
+.top-head{
+    background-image: url('../img/whatisvpn.jpeg');
+    min-height: 450px;
+}
+.top-head-vpn{
+    margin: 10% auto;
+    text-align: center;
+    width: 50%;
+    
+}
+
+.vpn-sec{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.vpn-sec-1{
+    margin: 10px;
+}
+.vpn-sec-1 img{
+    width: 10%;
+    margin-top: 20px;
+    
+}
+.vpn-sec-1 h4{
+    font-size: 18px;
+    margin-block-start: .33em;
+    margin-block-end: .33em;
+}
+.vpn-sec-1 p{
+    font-size: 16px;
+}
+
+.top-head-vpn1{
+    margin: 40px auto;
+    text-align: center;
+    width: 50%;
+    
+}
+.top-head-vpn1 p{
+    margin: 30px 0;
+}
+.btn5{
+    margin: 30px auto;
+    color: black;
+    padding: 15px 22px;
+}
+.btn5:hover{
+    background: #4687ff;
+    color: white
+}

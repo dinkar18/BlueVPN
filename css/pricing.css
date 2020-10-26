@@ -1,0 +1,325 @@
+.timer{
+    padding: 20px 10px;
+    background-color: black;
+    color: white;
+}
+.timer1 a{
+    color: white;
+    text-decoration: underline;
+}
+.timer1 a:hover{
+    color: #4687ff;
+}
+#demo{
+    float: right;
+}
+
+
+
+
+
+.pricinglog h1{
+    margin: 60px 10px;
+}
+.pricinglog ul{
+    list-style-image: url('../img/tickgreen.png');
+}
+
+
+
+
+#plans {
+    background-color: #D8D8D8;
+    padding: 50px 0px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#plans h1 {
+    margin: 70px 0px;
+}
+
+.plans1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    padding: 10px;
+}
+
+.plans2 {
+    width: 88%;
+    height: auto;
+    padding: 20px 10px;
+    border: 1px solid #BFBFBF;
+    background-color: white;
+    font-size: 14px;
+    text-align: center;
+    font-weight: lighter;
+}
+.plans2:hover{
+    box-shadow: 4px 4px 4px 4px #4687ff, 0 6px 20px 0 #4687ff ;
+}
+.plans2 h2{
+    font-size: 22px;
+}
+.shadow{
+    font-size: 12px;
+    background: lightcoral;
+    padding: 0px 5px;
+    width: 20%;
+    font-size: 10px;
+    margin:5px auto; 
+    border-radius: 10px;
+    
+}
+.buybtn{
+    width: 80%;
+    display: block;
+    background-color: #4687ff;
+    color: white;
+    padding: 7px;
+    margin:25px auto;
+}
+.buybtn:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    background: black;
+
+}
+.strike{
+    color: red;
+    text-decoration: line-through;
+}
+
+
+
+.plantxt{
+    margin-top: 40px;
+    background-color: #8ba9e8;
+    border: #4687ff 1px solid;
+    text-align: center;
+    padding: 10px;
+    opacity: 0.4;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .popup {
+    margin: 30px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 70%;
+    position: relative;
+    transition: all 5s ease-in-out;
+  }
+  
+  .popup h2 {
+    margin-top: 0;
+    color: #333;
+    font-family: Tahoma, Arial, sans-serif;
+    margin-block-start: 0.2em;
+    margin-block-end: 0.2em
+  }
+  .popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+  .popup .close:hover {
+    color: #4687ff;
+  }
+  .popup .content {
+    max-height: 70%;
+    overflow: auto;
+  }
+
+
+  .content{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+  }
+
+  .adress{
+    margin-left: 20px;
+  }
+  .adress h3{
+    margin-block-start: 0.4em;
+    margin-block-end: 0.4em;
+  }
+  .adress label{
+      display: block;
+      margin: 5px;
+  }
+  .cvvs{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .inputpay{
+    width: 94%;
+    border: 1px solid #4687ff;
+    margin-bottom: 5px;
+    font-size: 16px;
+    padding: 8px;
+  }
+  .inputpay1{
+    width: 70%;
+    border: 1px solid #4687ff;
+    margin-bottom: 5px;
+    font-size: 16px;
+    padding: 8px;
+  }
+  }
+  .payment{
+
+  }
+  .cvvs{
+    margin: 5px;
+  }
+  .log12{
+    color: #4687ff;
+    text-decoration: underline;
+  }
+  .log12:hover{
+    color: black;
+    cursor: pointer;
+  }
+  .btnorder{
+      background: #4687ff;
+      color: white;
+      margin-top: 20px;
+      border: none;
+      padding: 20px;
+      width: 95%;
+      font-size: 1em;
+
+  }  
+  .btnorder:hover{
+      background-color: black;
+      transition: ease 1s;
+      cursor: pointer;
+  }
+
+
+
+
+
+
+
+
+#namelo{
+    font-size: 13px;
+    cursor: pointer;
+    
+  }
+  #namelo span{
+    color: #4687ff;
+  }
+
+  #namelo:hover{
+    cursor: pointer;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .overlay1 {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .overlay1:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .popup3 {
+    margin: 30px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+  }
+  
+
+  .popup3 .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+  .popup3 .close:hover {
+    color: #4687ff;
+  }
+  .popup3 .content {
+    max-height: 30%;
+    overflow: auto;
+  }

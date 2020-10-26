@@ -1,0 +1,32 @@
+.extension{
+    background: #f6f6f6;
+    border-bottom: 1.5px solid darkgrey  ;
+}
+p{
+    font-size: 16px;
+}
+.extension1{
+    margin-top: 150px;
+    text-align: center;
+}
+.extension1 h1{
+    font-size: 40px;
+}
+.extension1 h6{
+    font-size: 24px;
+    padding: 0px 200px;
+}
+.extension12{
+    padding: 0px 150px;
+}
+.extension12 h5{
+    font-size: 22px;
+}
+.extension123 img{
+    display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.make-account{
+    margin-top: 0px;
+}

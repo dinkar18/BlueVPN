@@ -1,0 +1,60 @@
+/* header in header css */
+
+
+/* body */
+
+.features1 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.features1 h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.main-1 {
+    text-align: left;
+    margin-top: 150px;
+}
+
+.main-2 a {
+    color: #4687ff;
+    text-decoration: underline;
+}
+
+
+/* account */
+
+.make-account {
+    background-color: #f6f6f6;
+    color: black;
+    margin-top: 120px;
+}
+
+.make-account-1 {
+    margin: 70px 0px;
+    text-align: center;
+}
+
+.make-account-1 h1 {
+    font-size: 40px;
+}
+
+.sml-grey {
+    margin-bottom: 50px;
+}
+
+.btn2 {
+    color: black;
+    padding: 20px 25px;
+}
+
+.btn2:hover {
+    background-color: black;
+    color: white;
+}
+
+.top-head-2-money span {
+    margin-left: 0.6%;
+}
